@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Flight" max_length="40" name="x_snc_myflighttrac_flight" type="collection">
+        <element label="Start time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Stop time" max_length="40" name="stop_time" type="glide_date_time"/>
+    </element>
+</database>

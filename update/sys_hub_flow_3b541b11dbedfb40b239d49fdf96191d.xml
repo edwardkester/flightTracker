@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get FAFlight ID and register webhook</description>
+        <internal_name>register_webhook_madrid</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.start_time","label":"Trigger➛Flight Record➛Start time","reference":"","reference_display":"Start time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_myflighttrac_flight","column_name":"start_time"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Register Webhook Madrid</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ekester</sys_created_by>
+        <sys_created_on>2019-05-20 17:01:45</sys_created_on>
+        <sys_id>3b541b11dbedfb40b239d49fdf96191d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Register Webhook Madrid</sys_name>
+        <sys_package display_value="myFlightTracker" source="x_snc_myflighttrac">33331bdddbadfb40b239d49fdf961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myFlightTracker">33331bdddbadfb40b239d49fdf961961</sys_scope>
+        <sys_update_name>sys_hub_flow_3b541b11dbedfb40b239d49fdf96191d</sys_update_name>
+        <sys_updated_by>ekester</sys_updated_by>
+        <sys_updated_on>2019-05-20 17:12:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b541b11dbedfb40b239d49fdf96191d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3b541b11dbedfb40b239d49fdf96191d"/>
+</record_update>
